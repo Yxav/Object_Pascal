@@ -1,0 +1,159 @@
+object Form1: TForm1
+  Left = 64
+  Height = 240
+  Top = 277
+  Width = 472
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 472
+  LCLVersion = '1.8.4.0'
+  object bctimea: TComboBox
+    Left = 24
+    Height = 23
+    Top = 40
+    Width = 124
+    ItemHeight = 15
+    Items.Strings = (
+      'Braga'
+      'Porto'
+      'Santa Clara'
+      'Marítimo'
+      'Benfica'
+    )
+    TabOrder = 0
+    Text = 'Escolha um time'
+  end
+  object bctimeb: TComboBox
+    Left = 336
+    Height = 23
+    Top = 40
+    Width = 120
+    ItemHeight = 15
+    Items.Strings = (
+      'Sporting'
+      'Feirense'
+      'BoaVista'
+      'Tondela'
+      'Rio Ave'
+    )
+    TabOrder = 1
+    Text = 'Escolha um time'
+  end
+  object eda: TEdit
+    Left = 184
+    Height = 23
+    Top = 40
+    Width = 32
+    TabOrder = 2
+  end
+  object edb: TEdit
+    Left = 264
+    Height = 23
+    Top = 40
+    Width = 32
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 72
+    Height = 15
+    Top = 8
+    Width = 38
+    Caption = 'Time A'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Label3: TLabel
+    Left = 368
+    Height = 15
+    Top = 8
+    Width = 37
+    Caption = 'Time B'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 216
+    Height = 15
+    Top = 8
+    Width = 32
+    Caption = 'Placar'
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object Label4: TLabel
+    Left = 232
+    Height = 25
+    Top = 40
+    Width = 11
+    Caption = 'X'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object btnproc: TButton
+    Left = 200
+    Height = 25
+    Top = 112
+    Width = 75
+    Caption = 'Processar'
+    OnClick = btnprocClick
+    TabOrder = 4
+  end
+  object lbves: TLabel
+    Left = 96
+    Height = 23
+    Top = 152
+    Width = 108
+    Caption = 'VENCEDOR:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Berlin Sans FB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object lbvence: TLabel
+    Left = 232
+    Height = 1
+    Top = 161
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Berlin Sans FB'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnsai: TButton
+    Left = 381
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = 'Sair'
+    OnClick = btnsaiClick
+    TabOrder = 5
+  end
+  object lbempate: TLabel
+    Left = 152
+    Height = 25
+    Top = 184
+    Width = 198
+    Caption = 'Não houve vencedores'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Caladea'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+end
