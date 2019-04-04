@@ -1,0 +1,132 @@
+object Form1: TForm1
+  Left = 838
+  Height = 255
+  Top = 114
+  Width = 321
+  Caption = 'Temp & Umi'
+  ClientHeight = 255
+  ClientWidth = 321
+  LCLVersion = '1.8.4.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 8
+    Width = 40
+    Caption = 'Cidade:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 72
+    Height = 16
+    Top = 8
+    Width = 47
+    Caption = 'Pelotas'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 144
+    Height = 15
+    Top = 8
+    Width = 27
+    Caption = 'Data:'
+    ParentColor = False
+  end
+  object lbdia: TLabel
+    Left = 186
+    Height = 1
+    Top = 8
+    Width = 1
+    ParentColor = False
+  end
+  object lbdayofweek: TLabel
+    Left = 24
+    Height = 15
+    Top = 32
+    Width = 67
+    Caption = 'lbdayofweek'
+    ParentColor = False
+  end
+  object lbtemp: TLabel
+    Left = 24
+    Height = 75
+    Top = 64
+    Width = 158
+    Caption = 'lbtemp'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -64
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbcelsi: TLabel
+    Left = 205
+    Height = 24
+    Top = 81
+    Width = 23
+    Caption = 'ºC'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object Label5: TLabel
+    Left = 208
+    Height = 15
+    Top = 140
+    Width = 51
+    Caption = 'Umidade:'
+    ParentColor = False
+  end
+  object lbumi: TLabel
+    Left = 264
+    Height = 1
+    Top = 136
+    Width = 1
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Image1: TImage
+    Left = 40
+    Height = 90
+    Top = 160
+    Width = 90
+    Visible = False
+  end
+  object btntemp: TButton
+    Left = 224
+    Height = 24
+    Top = 200
+    Width = 72
+    Caption = 'Temperatura'
+    OnClick = btntempClick
+    TabOrder = 0
+  end
+  object btnexi: TButton
+    Left = 232
+    Height = 21
+    Top = 232
+    Width = 64
+    Caption = 'Fechar'
+    OnClick = btnexiClick
+    TabOrder = 1
+  end
+end
