@@ -15,6 +15,8 @@ type
   TForm1 = class(TForm)
     btntemp: TButton;
     btnexi: TButton;
+    Chart1: TChart;
+    Chart1LineSeries1: TLineSeries;
     Image1: TImage;
     Label1: TLabel;
     Label2: TLabel;
